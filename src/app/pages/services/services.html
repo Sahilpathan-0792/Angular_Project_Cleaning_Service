@@ -34,7 +34,7 @@
             {{ service.price | currency: 'INR' }}
           </h5>
 
-          <a [routerLink]="['/services', service.id]" [queryParams]="{ name: service.name }"
+          <a [routerLink]="['/service', service.id]" [queryParams]="{ name: service.name }"
             class="btn btn-primary w-100 rounded-pill">
             View Details
           </a>
